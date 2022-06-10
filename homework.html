@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMS</title>
+</head>
+<div><h1><b>HOTEL REGISTERATION AND BOOKING FORM</b></div>
+<hr/><hr/></h1>
+<style type="text/css">
+	.fieldset-auto-width {
+		display: inline-block;
+	}
+</style>
+
+<body align="center" bgcolor="B2BEB5">
+	<form method="post" action="#">
+		<fieldset class="fieldset-auto-width">
+		<legend align="center"><b>FILL IN YOUR DETAILS</b></legend>
+		<table align="center">
+			<tr>
+				<td>Firstname: </td>
+				<td> <input type="text" name="firstname" ></td>
+			</tr>
+			<tr>
+				<td>Middlename: </td><td> <input type="text" name="middlename" ></td>
+			</tr>
+			<tr>
+				<td>Surname: </td><td> <input type="text" name="surname" ></td>
+			</tr>
+			<tr>
+				<td>Username: </td><td> <input type="text" name="username" ></td>
+			</tr>
+			<tr>
+				<td>Password: </td><td> <input type="password" name="pw1" placeholder="password"></td>
+			</tr>
+			<tr>
+				<td>Verify Password: </td><td> <input type="password" name="pw2" placeholder="password"></td>
+			</tr>
+			<tr>
+				<td>Email: </td><td> <input type="email" name="email" placeholder="123455@gmail.com"></td>
+			</tr>
+			<tr>
+				<td>Telephone: </td><td> <input type="number" name="number" ></td>
+
+			</tr>
+			<tr>
+				<td>Date of birth: </td><td> <input type="date" name="date_of_birth" ></td>
+			</tr>
+			<tr>
+				<td>Room Type: </td>
+				<td><select name="level">
+				<option disabled selected>----Select Room Type----</option>
+			<option value="Single($100)">Single ($100)</option>
+			<option value="Double($100)">Double ($100)</option>
+			<option value="Queen($200)">Queen ($200)</option>
+			<option value="King($210)">King ($210)</option>
+			<option value="2-Bedroom($350)">2-Bedroom ($350)</option>
+		    <option value="Suite($500)">Suite ($500)</option></td>
+			       </select>
+			</tr>
+			<tr>
+				<td>Gender: </td>
+				<td>
+				Male <input type="radio" name="gender" value="M" >  
+				Female <input type="radio" name="gender" value="F" ></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>Photo: </td>
+				<td> <input type="file" name="fileload" accept="image"></td>
+			</tr>
+			<tr>
+				<td>Address: </td>
+				<td> <textarea name="address" rows="2" ></textarea></td>
+			</tr>
+		</table>
+		</fieldset>
+		<p align="center"><input type="reset" name="reset" value="Clear" style="background-color: #FFFFFF; border-radius: 20px ;" >
+		<input type="submit" name="submit" value="Register" style="background-color:#FFFFFF; border-radius: 20px">
+</p>
+<footer>
+  <div style="background-color:#808080;"><p>Manager: Frederick Kaakoye</p><p>For more information kindly contact the email below</p>
+  <p><a href="mailto:frederickkaakoye@gmail.com">frederickkaakoye@gmail.com</a></p></div>
+</footer>
+</footer>
+	</form>
+
+</body>
+</html>
