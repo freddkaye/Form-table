@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMS</title>
+</head>
+<body>
+	<form method="post" action="#">
+		<fieldset>
+			<legend>Fill this form</legend>
+		<label>Surname: </label> <input type="text" name="surname" style="border-radius: 100px;" /><br/><br/>
+		<label>Other Names: </label> <input type="text" name="other_names" placeholder="Parteye"><br/><br/>
+		<label>Username: </label> <input type="text" name="username" placeholder="Freddkaye"><br/><br/>
+		<label>Password: </label> <input type="password" name="password"><br/><br/>
+		<label>Email: </label> <input type="email" name="email"><br/><br/>
+		<label>Date Of Birth: </label> <input type="date" name="date_of_birth"><br/><br/>
+		<label>Mobile Number: </label> <input type="numbers" name="mobile_number"><br/><br/>
+		<label>Level: </label>
+		<select name="level">
+			<option disabled selected>--Select Level--</option>
+			<option value="100">100</option>
+			<option value="200">200</option>
+			<option value="300">300</option>
+			<option value="400">400</option>
+			<option value="500">500</option>
+		</select><br/><br/>
+		<label>Gender: </label>
+		Male <input type="radio" name="gender" value="M">
+		Female <input type="radio" name="gender" value="F">
+		Other <input type="radio" name="gender" value="O"><br/><br/>
+		<label>Courses: </label>
+		HTML <input type="checkbox" name="courses">
+		CSS <input type="checkbox" name="courses">
+		PHP <input type="checkbox" name="courses">
+		My SQL <input type="checkbox" name="courses"><br/><br/>
+		<label>Address: </label> <textarea name="address" rows="3"></textarea>
+		</table>
+		</fieldset><br/>
+		<input type="reset" name="reset" value="Clear" style="background-color: #00FF00; border-radius: 50px;">
+		<input type="submit" name="submit" value="Register">
+	</form>
+</body>
+</html>
